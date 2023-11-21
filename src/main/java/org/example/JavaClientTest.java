@@ -4,7 +4,7 @@ import com.marklogic.client.DatabaseClient;
 import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.ext.modulesloader.ssl.SimpleX509TrustManager;
 
-public class Main {
+public class JavaClientTest {
     public static void main(String[] args) {
         DatabaseClient client = DatabaseClientFactory.newClient("localhost", 8010,
                 new DatabaseClientFactory.DigestAuthContext("admin", "admin")
